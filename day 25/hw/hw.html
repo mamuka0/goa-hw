@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>დავირუსებული საიტი</title>
+    <style>
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 50px;
+        }
+        .virus-button, .clean-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <button class="virus-button" onclick="virusAlert()">ღილაკი 1</button>
+        <button class="virus-button" onclick="virusAlert()">ღილაკი 2</button>
+        <button class="virus-button" onclick="virusAlert()">ღილაკი 3</button>
+        <button class="virus-button" onclick="virusAlert()">ღილაკი 4</button>
+        <button class="virus-button" onclick="virusAlert()">ღილაკი 5</button>
+      
+        <button class="clean-button" onclick="cleanAlert()">სუფთა ღილაკი</button>
+    </div>
+
+    <script>
+        function virusAlert() {
+            alert('თქვენი კომპიუტერი ვირუსებით გაივსო!');
+        }
+
+        function cleanAlert() {
+            alert('ყველა ვირუსი გასუფთავდა!');
+        }
+    </script>
+</body>
+</html>

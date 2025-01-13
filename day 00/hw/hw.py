@@ -1,5 +1,5 @@
 from turtle import*
-speed(100)
+speed(2)
 # ჯერ ვიწყებთ სახლის დახატვას
 begin_fill()
 forward(200)

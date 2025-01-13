@@ -1,0 +1,20 @@
+
+.section-one {  
+    font-size: 22px;  
+    max-width: 800px;  
+    border: 5px dashed; 
+}  
+
+
+.section-two {  
+    font-size: 50px; 
+    max-width: 600px;
+    border: 10px solid;
+}  
+
+ 
+.section-three {  
+    font-size: 30px; 
+    max-width: 900px;  
+    border: 2px double; 
+}

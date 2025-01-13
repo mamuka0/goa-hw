@@ -1,0 +1,44 @@
+<!-- karoche onclick aris funqcia imistvis rom daweris dros garkveuli moqmedeba sesruldes -->
+ <!-- arlent aris imistvis rom raimeze daweris dros saitze gamovides naaweri romelsac sen seitan -->
+
+ <!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>მარტივი საიტი</title>
+</head>
+<body>
+
+   
+    <nav>
+        <ul>
+            <li><a href="#section1">სექცია 1</a></li>
+            <li><a href="#section2">სექცია 2</a></li>
+            <li><a href="#section3">სექცია 3</a></li>
+            <li><a href="https://www.facebook.com/your-profile" target="_blank">Facebook პროფილი</a></li>
+        </ul>
+    </nav>
+
+    <div>
+        <button onclick="showAlert('პირველი ტექსტი')">გამოიტანე ტექსტი 1</button>
+        <button onclick="showAlert('მეორე ტექსტი')">გამოიტანე ტექსტი 2</button>
+    </div>
+
+   
+    <form>
+        <label for="name">სახელი:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="phone">ტელეფონის ნომერი:</label>
+        <input type="tel" id="phone" name="phone"><br><br>
+        <input type="submit" value="გაგზავნა">
+    </form>
+
+    <script>
+        function showAlert(message) {
+            alert(message);
+        }
+    </script>
+
+</body>
+</html>

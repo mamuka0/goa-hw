@@ -1,0 +1,39 @@
+
+#div1 {
+    background-color: rgb(255, 200, 200); 
+    color: rgb(50, 50, 50); 
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+#div2 {
+    background-color: rgb(200, 255, 200); 
+    color: rgb(50, 50, 50); 
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+#div3 {
+    background-color: rgb(200, 200, 255);
+    color: rgb(50, 50, 50);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+#div4 {
+    background-color: rgb(255, 255, 200); 
+    color: rgb(50, 50, 50); 
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+#div5 {
+    background-color: rgb(255, 255, 255); 
+    color: rgb(50, 50, 50); 
+    padding: 20px;
+    margin-bottom: 20px;
+}

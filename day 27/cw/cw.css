@@ -1,0 +1,10 @@
+ 
+.styled-paragraph {  
+    color: darkgreen; 
+    background-color: lightyellow; 
+    text-align: center;  
+    font-size: 20px; 
+    font-weight: bold;  
+    border: 3px dashed orange; 
+    padding: 15px; 
+}

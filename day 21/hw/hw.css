@@ -1,0 +1,46 @@
+
+h1 {  
+    color: blue; 
+    background-color: yellow; 
+}  
+
+.button {  
+    background-color: red; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+}  
+
+
+p.small {  
+    font-size: 12px; 
+}  
+
+p.medium {  
+    font-size: 16px; 
+}  
+
+p.large {  
+    font-size: 20px; 
+}  
+
+h2 {  
+    font-weight: bold; 
+}  
+
+p.light {  
+    font-weight: 300;
+}  
+
+
+.div-border {  
+    border: solid 5px; 
+    padding: 10px;
+}  
+
+.image-dotted {  
+    border: dotted; 
+    border-width: 2px;
+    padding: 5px; 
+}
