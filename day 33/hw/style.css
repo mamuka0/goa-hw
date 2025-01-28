@@ -1,0 +1,98 @@
+
+p {  
+    text-decoration: underline;  
+}  
+
+
+a {  
+    text-decoration: none;  
+}  
+
+
+h1 {  
+    text-decoration: overline;  
+}  
+
+
+span {  
+    text-decoration: line-through;  
+}  
+
+ 
+h2 {  
+    text-decoration: underline overline;  
+}  
+
+ 
+a {  
+    text-decoration: underline dashed;  
+}  
+
+
+p.warning {  
+    text-decoration: wavy underline; 
+}  
+
+
+nav a {  
+    text-transform: uppercase;  
+}  
+
+
+h2 {  
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);  
+}  
+
+
+h1 {  
+    text-shadow: 2px 2px 5px black;  
+}  
+
+p {  
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);  
+}  
+
+
+.emphasis {  
+    text-shadow: 1px 1px 2px red;  
+}  
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');  
+
+p {  
+    font-family: 'Roboto', sans-serif;  
+}  
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');  
+
+h1, h2, h3 {  
+    font-family: 'Roboto', sans-serif;  
+}  
+
+body {  
+    font-family: 'Open Sans', sans-serif;  
+}  
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Open+Sans:wght@700&display=swap');  
+
+h1 {  
+    font-family: 'Roboto', serif; 
+}  
+
+body {  
+    font-family: 'Open Sans', sans-serif; 
+}  
+
+
+@font-face {  
+    font-family: 'MyCustomFont';  
+    src: url('path/to/font.woff2') format('woff2'),  
+         url('path/to/font.ttf') format('truetype');  
+}  
+
+h1, h2, h3 {  
+    font-family: 'MyCustomFont', sans-serif;  
+}
