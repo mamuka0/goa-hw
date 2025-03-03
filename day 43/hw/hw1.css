@@ -1,0 +1,45 @@
+* {  
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;  
+}  
+
+body {  
+    font-family: Arial, sans-serif;  
+}  
+
+header {  
+    background-color: green;  
+    color: white;  
+    padding: 20px;  
+    text-align: center;  
+}  
+
+.container {  
+    display: flex;  
+}  
+
+article {  
+    flex: 2;  
+    background-color: white;  
+    padding: 20px;  
+}  
+
+aside {  
+    flex: 1;  
+    background-color: #f0e68c;  
+    padding: 20px;  
+}  
+
+nav {  
+    flex: 1;  
+    background-color: #d0e8e0;  
+    padding: 20px;  
+}  
+
+footer {  
+    background-color: green;  
+    color: white;  
+    padding: 20px;  
+    text-align: center;  
+}
