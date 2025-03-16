@@ -1,0 +1,16 @@
+body {  
+    margin: 0;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    height: 100vh;  
+}  
+
+.rounded-div {  
+    width: 1000px;  
+    height: 500px;  
+    border: 2px solid black; 
+    border-radius: 15px; 
+    background-image: url('your-image-url.jpg');  
+    background-size: cover; 
+    background-position: center;}

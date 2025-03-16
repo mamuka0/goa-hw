@@ -1,0 +1,64 @@
+.center-div {  
+    width: 50%;  
+    margin: 0 auto;  
+}  
+
+.image-right {  
+    float: right;  
+}  
+
+.header {  
+    position: fixed;  
+    top: 0;  
+    width: 100%;  
+}  
+
+.button-bottom {  
+    position: absolute;  
+    bottom: 0;  
+}  
+
+.image-container {  
+    position: relative;  
+}  
+
+.image-container img {  
+    width: 100%;  
+}  
+
+.text-overlay {  
+    position: absolute;  
+    top: 50%;  
+    left: 50%;  
+    transform: translate(-50%, -50%);  
+    color: white;  
+}  
+
+.footer {  
+    position: fixed;  
+    bottom: 0;  
+    width: 100%;  
+}  
+
+.box-up {  
+    position: relative;  
+    top: -10px;  
+}  
+
+.container {  
+    display: flex;  
+}  
+
+.element {  
+    flex: 1;  
+}  
+
+.image-left {  
+    float: left;  
+    margin-right: 10px;  
+}  
+
+.element-1 {  
+    position: relative;  
+    bottom: 20px;  
+}
